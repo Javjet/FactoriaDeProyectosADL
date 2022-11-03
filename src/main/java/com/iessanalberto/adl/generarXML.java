@@ -21,7 +21,7 @@ public class generarXML {
 
         try {
 
-            File archivo = new File("src/main/resources/proyectos.xml");
+            File archivo = new File("target/proyectos.xml");
             JAXBContext context = JAXBContext.newInstance(listaProyectos.class);
 
             Marshaller marshaller = context.createMarshaller();
